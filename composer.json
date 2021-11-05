@@ -34,9 +34,9 @@
             "title": "Last Extensions",
             "category": "",
             "icon": {
-                "name": "",
-                "backgroundColor": "",
-                "color": ""
+                "name": "fas fa-store",
+                "backgroundColor": "blue",
+                "color": "white"
             }
         }
     },

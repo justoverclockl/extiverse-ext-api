@@ -52,6 +52,7 @@ export default class lastExtensions extends Page {
                 {app.translator.trans('justoverclock-extiverse-ext-api.forum.pageTitle')}
               </h1>
               <p className="pagedescription">{app.translator.trans('justoverclock-extiverse-ext-api.forum.pageText')}</p>
+              <p className="pagedescription">{app.translator.trans('justoverclock-extiverse-ext-api.forum.pageText2')}</p>
               <div className="containerExtensions" id="extList">
                 {this.ext.map((exte) =>{
                   return (

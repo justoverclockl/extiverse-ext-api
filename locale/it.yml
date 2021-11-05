@@ -2,4 +2,6 @@ justoverclock-extiverse-ext-api:
   forum:
     extPage: Estensioni
     pageTitle: Ultime Estensioni di Flarum
-    pageText: Questa pagina mostra le ultime estensioni create per flarum direttamente da Extiverse (sia free che premium). Per una lista completa delle estensioni disponibili visitate direttamente il sito https://extiverse.com/
+    pageText: Questa pagina mostra le ultime estensioni create per flarum direttamente da Extiverse (sia free che premium).
+    pageText2: Per una lista completa delle estensioni disponibili visitate direttamente il sito https://extiverse.com/
+
