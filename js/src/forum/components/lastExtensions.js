@@ -14,7 +14,7 @@ export default class lastExtensions extends Page {
 
   oncreate(vnode) {
     super.oncreate(vnode);
-    app.setTitle(app.translator.trans('justoverclock-extiverse-ext-api.forum.pagetitle'));
+    app.setTitle(app.translator.trans('justoverclock-extiverse-ext-api.forum.pageTitle'));
     app.setTitleCount(0);
 
     const settings = {
@@ -57,7 +57,7 @@ export default class lastExtensions extends Page {
                   return (
                     <tr class="listaEst">
                       <td class="tdzero"><img class="imgextiv" src={exte.image} width="30" height="30"/></td>
-                      <td class="tdone"><a href={exte.url} target="_blank" rel="nofollow"><b>{exte.name}</b></a></td>
+                      <td class="tdone"><a href={exte.url} title={exte.name} target="_blank" rel="nofollow"><b>{exte.name}</b></a></td>
                       <td class="tdtwo">{exte.desc}</td>
                       <td class="tdthree"><i class="fas fa-download extiv"/>{exte.totalDownload}</td>
                     </tr>
